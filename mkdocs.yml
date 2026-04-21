@@ -1,0 +1,28 @@
+site_name: Manual Emonitor
+
+theme:
+  name: material
+
+markdown_extensions:
+  - attr_list
+
+extra_css:
+  - stylesheets/extra.css
+  
+nav:
+  - Inicio: index.md
+  - Introducción: introduccion.md
+  - Requisitos: requisitos.md
+  - Instalación: instalacion.md
+  - Configuración: configuracion.md
+  - Conexión con PLC: conexion_plc.md
+  - Base de Datos: base_datos.md
+  - Visualización: visualizacion.md
+  - Troubleshooting: troubleshooting.md
+
+plugins:
+  - search
+  - print-site:
+      add_to_navigation: true
+      print_page_title: 'Imprimir / PDF'
+      add_print_site_banner: false
