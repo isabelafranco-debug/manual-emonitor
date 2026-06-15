@@ -14,9 +14,9 @@ nav:
   - Introducción: introduccion.md
   - Requisitos: requisitos.md
   - Instalación: instalacion.md
+  - Base de Datos: base_datos.md
   - Configuración: configuracion.md
   - Conexión con PLC: conexion_plc.md
-  - Base de Datos: base_datos.md
   - Visualización: visualizacion.md
   - Troubleshooting: troubleshooting.md
 
