@@ -4,7 +4,7 @@
 
 1. Abrir el proyecto correspondiente en Studio 5000 Logix Designer.
 2. Agregar el módulo Dynamix al árbol de E/S (I/O Configuration).
-![Módulo 1444](1444.png){ .center }
+![Módulo 1444](img/1444.png){ .center }
 3. Configurar la dirección IP del dispositivo de acuerdo con la arquitectura de red establecida.
 4. Verificar que el módulo se encuentre en estado operativo y sin errores de comunicación.
 
@@ -16,7 +16,7 @@ Verificar la disponibilidad de las variables que serán utilizadas para el monit
 * Variables de estado del dispositivo.
 * Variables de alarma y eventos.
 * Variables de diagnóstico, si corresponde.
-![alt text](VARIABLESCONF.png){ .center }
+![alt text](img/VARIABLESCONF.png){ .center }
 
 ## Configuración de la Comunicación
 
