@@ -788,22 +788,57 @@
 <li>Red industrial</li>
 <li>Servidor</li>
 </ul></section><section class="print-page" id="requisitos" heading-number="3"><h1 id="requisitos-requisitos-del-sistema">Requisitos del Sistema</h1>
+<p>Antes de iniciar la instalación y configuración de Emonitor, verifique que se disponga de los siguientes componentes de hardware, software e infraestructura de red.</p>
 <h2 id="requisitos-hardware">Hardware</h2>
+<h3 id="requisitos-controlador-industrial">Controlador Industrial</h3>
 <ul>
-<li>PLC Allen-Bradley</li>
-<li>Módulo de vibración (ej: Dynamix 1444)</li>
-<li>Servidor o PC industrial</li>
+<li>PLC Allen-Bradley compatible con la arquitectura de monitoreo implementada.</li>
+<li>Firmware actualizado y correctamente configurado.</li>
+</ul>
+<h3 id="requisitos-modulo-de-monitoreo-de-vibraciones">Módulo de Monitoreo de Vibraciones</h3>
+<ul>
+<li>Módulo Allen-Bradley Dynamix 1444 o equivalente compatible.</li>
+<li>Sensores de vibración correctamente instalados y cableados.</li>
+</ul>
+<h3 id="requisitos-estacion-de-trabajo-o-servidor">Estación de Trabajo o Servidor</h3>
+<ul>
+<li>Computador industrial o servidor destinado a la ejecución de Emonitor.</li>
+<li>Procesador Intel Core i7 o superior.</li>
+<li>8 GB de memoria RAM como mínimo (16 GB recomendados).</li>
+<li>5 GB de espacio libre en disco como mínimo.</li>
+<li>Unidad SSD recomendada para mejorar el rendimiento de la base de datos.</li>
 </ul>
 <h2 id="requisitos-software">Software</h2>
+<h3 id="requisitos-emonitor">Emonitor</h3>
 <ul>
-<li>Emonitor</li>
-<li>SQL Server</li>
-<li>Studio 5000</li>
+<li>Emonitor 4.2 o versión compatible.</li>
 </ul>
-<h2 id="requisitos-red">Red</h2>
+<h3 id="requisitos-base-de-datos">Base de Datos</h3>
 <ul>
-<li>Comunicación Ethernet/IP</li>
-<li>Configuración IP correcta</li>
+<li>Microsoft SQL Server 2017 o Microsoft SQL Server 2019.</li>
+<li>Ediciones Express, Standard o superiores.</li>
+</ul>
+<h3 id="requisitos-herramientas-de-configuracion">Herramientas de Configuración</h3>
+<ul>
+<li>Studio 5000 Logix Designer para la configuración y mantenimiento del PLC.</li>
+<li>FactoryTalk Activation Manager para la activación de licencias.</li>
+</ul>
+<h2 id="requisitos-red-y-comunicaciones">Red y Comunicaciones</h2>
+<h3 id="requisitos-infraestructura-de-red">Infraestructura de Red</h3>
+<ul>
+<li>Red Ethernet industrial operativa.</li>
+<li>Conectividad estable entre PLC, módulos de monitoreo y servidor Emonitor.</li>
+</ul>
+<h3 id="requisitos-configuracion-de-red">Configuración de Red</h3>
+<ul>
+<li>Direcciones IP configuradas correctamente para todos los dispositivos.</li>
+<li>Verificación de conectividad mediante pruebas de comunicación.</li>
+<li>Puertos requeridos habilitados en firewalls y equipos de red.</li>
+</ul>
+<h3 id="requisitos-protocolos-de-comunicacion">Protocolos de Comunicación</h3>
+<ul>
+<li>Ethernet/IP para la comunicación entre los dispositivos Allen-Bradley.</li>
+<li>Comunicación habilitada entre Emonitor y la base de datos SQL Server.</li>
 </ul></section><section class="print-page" id="instalacion" heading-number="4"><h1 id="instalacion-instalacion-de-emonitor">Instalación de Emonitor</h1>
 <h2 id="instalacion-paso-1-preparacion">Paso 1: Preparación</h2>
 <ul>
