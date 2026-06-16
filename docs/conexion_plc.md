@@ -16,11 +16,12 @@ Verificar la disponibilidad de las variables que serán utilizadas para el monit
 * Variables de estado del dispositivo.
 * Variables de alarma y eventos.
 * Variables de diagnóstico, si corresponde.
-![alt text](img/VARIABLESCONF.png){ .center }
+![Configuración de variables a leer](img/VARIABLESCONF.png){ .center }
 
 ## Configuración de la Comunicación
 
 1. Confirmar que la comunicación entre el controlador y el módulo Dynamix se realice mediante el protocolo Ethernet/IP.
+![Configuración de dirección IP](ConfigIP.png){ .center }
 2. Verificar la correcta asignación de las conexiones de entrada y salida del módulo.
 3. Descargar la configuración al controlador y validar que no existan fallas de comunicación.
 
